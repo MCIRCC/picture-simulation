@@ -12,3 +12,8 @@ This is a simulation that can learn and generate synthetic electronic health rec
 * 20200120_simulation_model_weights.h5 is the trained variational autoencoder
 
 * 20200120_simulated_data.pickle is example simulated data
+
+
+### Model Structure
+
+<img src="model.png" />
