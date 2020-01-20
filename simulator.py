@@ -302,7 +302,7 @@ An object of this class will do the following
 4 does a simple imputation
 """ 
 class SimulationDataScaler(object):
-    def __init__(self,l=0.0,u=1.0,fill_value=0.0,winsorize=True, return_df = True):
+    def __init__(self,l=0.0,u=1.0,fill_value=0.0,winsorize=False, return_df = True):
         self.l = l
         self.u = u
         self.columns = []
